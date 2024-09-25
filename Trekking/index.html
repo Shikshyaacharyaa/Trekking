@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>trekking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section -->
+
+<header>
+
+<div id="menu-bar" class="fas fa-bars"></div>
+
+  <a href="#" class="logo">Trekking</a>
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#book">Book</a>
+    <a href="#package">Package</a>
+    <a href="#services">Services</a>
+    <a href="#review">Review</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="icons">
+  <i class="fas fa-search" id="search-btn"></i>
+  <i class="fas fa-user" id="login-btn"></i>
+</div>
+
+<form action="" class="search-bar-container">
+  <input type="search" id="search-bar" placeholder="search here...">
+  <label for="search-bar"  class= "fas fa-search"></label>
+</form>
+</header>
+
+<!-- login form -->
+
+<div class="login-form-container">
+
+<i class="fas fa-times" id="form-close"> </i>
+
+  <form action="">
+    <h1>Login</h1>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login form" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget password? <a href="#">click here</a></p>
+    <p>don't have an account? <a href="#">register now</a></p>
+  </form>
+</div>
+
+
+<!-- home section -->
+
+<section class="home" id="home">
+  <div class="content">
+  <h3>Explore Beyond Limits</h3>
+  <p>Every Trek is a New Discovery</p>
+  <a href="#" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn active" data-src="video 1.mp4"></span>
+    <span class="vid-btn" data-src="video2.mp4"></span>
+    <span class="vid-btn" data-src="video3.mp4"></span>
+  </div>
+
+<div class="video-container">
+  <video src="video3.mp4" id="video-slider" loop autoplay muter></video>
+</div>
+
+
+</section>
+
+
+
+<!-- book section -->
+
+<section class="book" id="book">
+  <h1 class="heading">
+    <span>b</span> <span>o</span> <span>o</span> <span>k</span>  <span class="space"></span> <span>n</span> <span>o</span> <span>w</span>
+  </h1>
+
+<div class="row">
+  <div class="image">
+    <img src="img5.jpg" alt="">
+    
+  </div>
+
+  <form action="">
+    <div class="inputbox">
+      <h3>where to</h3>
+      <input type="text" placeholder="place name">
+    </div>
+    <div class="inputbox">
+      <h3>how many</h3>
+      <input type="number" placeholder="number of guest">
+    </div>
+    <div class="inputbox">
+      <h3>Arrivals</h3>
+      <input type="date">
+    </div>
+    <div class="inputbox">
+      <h3>leaving</h3>
+      <input type="date">
+    </div>
+    <input type="submit" class="btn" value="book now">
+  </form>
+</div>
+
+
+
+</section>
+
+
+<!-- package section -->
+<section class="package" id="package">
+  <h1 class="heading">
+    <span>P</span> <span>a</span> <span>c</span> <span>k</span> <span>a</span> <span>g</span> <span>e</span> <span>s</span>
+  </h1>
+  <div class="box-container">
+    <div class="box">
+      <img src="img1.webp" alt="">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Khumai Dada</h3>
+        <p>Khumai Dada is a scenic viewpoint in Nepal’s Lamjung District, offering panoramic views of the Annapurna and Manaslu ranges. It’s a tranquil spot ideal for trekking and enjoying nature, with picturesque landscapes and local cultural experiences. The best time to visit is during the spring and autumn. The Khumai Dada trek in Nepal provide a rich cultural experience.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price">Rs5000 <span>Rs7000</span></div>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="img2.jpeg" alt="">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Mardi Himal</h3>
+        <p>Mardi Himal is a beautiful, off-the-beaten-path trek in Nepal's Annapurna region. It offers stunning views of the Annapurna and Machapuchare peaks. The trek is moderately challenging and usually takes 5-7 days. Best times to go are March-May or September-November. It provides a mix of lush forests, and charming village experiences.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">Rs8000 <span>Rs10000</span></div>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="img3.jpg" alt="">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Langtang</h3>
+        <p>Langtang Himal is a stunning trek in Nepal's Langtang Valley, close to the Tibetan border. It offers breathtaking views of Langtang Lirung and other peaks, with diverse landscapes from lush forests to high-altitude meadows. The trek typically takes 7-10 days and is known for its scenic beauty and cultural richness.Langtang offers stunning peaks. </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">Rs15000 <span>Rs17000</span></div>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="img4.jpg" alt="">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Ghale Gaun</h3>
+        <p>Ghale Gaun is a picturesque traditional village in Nepal's Lamjung District, known for its beautiful views of the Annapurna and Manaslu ranges. It's a charming spot for experiencing authentic Gurung culture, with traditional houses and local hospitality. Ideal for a peaceful getaway, it’s best visited during the spring and autumn.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price">Rs3000 <span>Rs5000</span></div>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="img6.jpeg" alt="">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Panchpokhari</h3>
+        <p>Panch Pokhari is a beautiful group of five sacred lakes nestled in the Himalayas, known for its stunning natural beauty and serene environment. It’s a popular trekking destination that offers breathtaking views and a peaceful atmosphere, attracting both pilgrims and nature lovers.The region around Panch Pokhari is rich in biodiversity, making it a haven for trekker.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">Rs10000 <span>Rs12000</span></div>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="img7.jpg" alt="">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Tilicho Lake</h3>
+        <p>Tilicho Lake, is renowned for being one of the highest lakes in the world. Its striking turquoise waters are framed by majestic snow-capped peaks, creating a stunning backdrop that captivates trekkers and adventurers alike. The trek to Tilicho Lake is challenging but rewarding, offering breathtaking views, and a glimpse into the rich culture of the local communities.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="price">Rs18000 <span>Rs20000</span></div>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Services -->
+
+<section class="services" id="services">
+  <h1 class="heading">
+    <span>S</span> <span>e</span> <span>r</span> <span>v</span>  <span>i</span> <span>c</span> <span>e</span> <span>s</span>
+  </h1>
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fas fa-hotel"></i>
+      <h3>affordable hotels</h3>
+      <p>Discover a range of affordable hotels that combine comfort and value. Our budget-friendly options provide essential amenities and convenient locations, ensuring a pleasant stay without breaking the bank. Find the perfect accommodation for your travels and enjoy quality and savings.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-utensils"></i>
+      <h3>food and drinks</h3>
+      <p>Indulge in a world of flavor with our handpicked selection of gourmet food and exquisite drinks. From tantalizing appetizers to decadent desserts, and refreshing beverages to sophisticated cocktails, we have something to delight every palate. Experience culinary perfection with every bite and sip.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-bullhorn"></i>
+      <h3>safty guide</h3>
+      <p>Your safety is our top priority. Follow these simple guidelines to ensure a secure and enjoyable experience: always be aware of your surroundings, use provided safety equipment, and report any concerns immediately. Together, we can create a safe and welcoming environment for everyone.</p>
+    </div>
+
+    
+    <div class="box">
+      <i class="fas fa-hiking"></i>
+      <h3>adventures</h3>
+      <p>Embark on unforgettable adventures with us! Whether you're seeking thrilling escapades or serene explorations, we offer experiences that ignite your spirit of adventure. Discover new horizons, embrace the thrill, and make memories that will last a lifetime.</p>
+    </div>
+
+  </div>
+
+
+</section>
+
+
+
+<!-- review -->
+
+<section class="review" id="review">
+  
+  <h1 class="heading">
+    <span>R</span> <span>e</span> <span>v</span> <span>i</span>  <span>e</span> <span>w</span>
+  </h1>
+
+  <div class=" swiper-container review-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="pppppp.jpg" alt="">
+          <h3>Larisa</h3>
+          <p>I recently completed the Annapurna Circuit with this trekking company, and it was nothing short of spectacular. From the well-organized logistics to the knowledgeable guides, every detail was handled with care. The breathtaking views and the challenging yet rewarding trails made this trek an unforgettable experience.Trekking is an exciting way to explore nature. </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="p.jpg" alt="">
+          <h3>Tamia</h3>
+          <p>Everything about my trek was perfect—from the initial planning to the final summit. The pre-trek information was thorough, and the equipment provided was top-notch. The guides were not only skilled but also personable and fun to be around. The trek itself was challenging yet exhilarating. I can't wait to book my next adventure with them</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="pppp.jpg" alt="">
+          <h3>James</h3>
+          <p>The professionalism of the team was evident from start to finish. Our guide was incredibly passionate about the local culture and wildlife, which enriched the trek immensely. The support staff were friendly and attentive, making sure we were comfortable throughout. If you’re seeking a trekking company that goes above and beyond, look no further</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- contact -->
+
+<section class="contact" id="contact">
+  <h1 class="heading">
+    <span>c</span> <span>o</span> <span>n</span> <span>t</span>  <span>a</span> <span>c</span> <span>t</span>
+  </h1>
+<div class="row">
+  <div class="image">
+    <img src="contact.jpg" alt="">
+  </div>
+<form action="">
+  <div class="inputBox">
+<input type="text" placeholder="name">
+<input type="email" placeholder="email">
+  </div>
+
+<div class="inputBox">
+  <input type="number" placeholder="number">
+  <input type="text" placeholder="subject">
+</div>
+
+<textarea placeholder="message" name="" id="" cols="30 " rows="10"></textarea>
+<input type="submit" class="btn" value="send message">
+
+</form>
+
+</div>
+
+
+
+</section>
+
+
+<!-- footer -->
+ <section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>about us</h3>
+      <p>Embark on an unforgettable journey with us! Explore breathtaking trails, embrace the serenity of nature, and create memories that last a lifetime. Adventure awaits—let's hit the trail together!</p>
+    </div>
+
+    <div class="box">
+      <h3>branch location</h3>
+      <a href="#">Kathmandu</a>
+      <a href="#">Butwal</a>
+      <a href="#">Pokhara</a>
+      <a href="#">hetauda</a>
+    </div>
+
+    
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#home">Home</a>
+      <a href="#book">Book</a>
+      <a href="#package">Package</a>
+      <a href="#services">Services</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+    </div>
+    
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#">facebook</a>
+      <a href="#">instagram</a>
+      <a href="#">twitter</a>
+    </div>
+  </div>
+
+<h1 class="credit">created by <span>Shikshya Acharya</span>|all right reserved!</h1>
+
+
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
